@@ -1,4 +1,6 @@
 .obj/
+logs/
+keys
 
 lockserver/client-main
 lockserver/server-main
@@ -73,3 +75,7 @@ tags
 *.exe
 *.out
 *.app
+
+# Clang stuff
+compile_commands.json
+.cache/
